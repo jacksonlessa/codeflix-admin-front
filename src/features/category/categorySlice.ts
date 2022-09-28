@@ -25,7 +25,7 @@ export const InitialState = [
   category,
   { ...category, id: "abd", name: "Green"},
   { ...category, id: "abe", name: "Orange"},  
-  { ...category, id: "abf", name: "Red"},
+  { ...category, id: "abf", name: "Red", is_active: false},
 ]
 
 const categoriesSlice = createSlice({
